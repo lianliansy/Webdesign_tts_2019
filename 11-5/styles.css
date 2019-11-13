@@ -1,0 +1,52 @@
+body {
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+
+h1 {
+	font-size: 64px;
+	color: #3c8d91;
+}
+
+#home ul {
+	color: purple;
+}
+
+#home ul a {
+	color: darkgray;
+}
+
+#home ul a:link {
+	color: darkgray;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+#home li {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid purple;
+}
+
+#home ul a:visited {
+	color: darkblue;
+}
+
+#home ul a:hover {
+	color: red;
+}
+
+#home ul a:active {
+	color: orange;
+}
+
+#home .styled-button {
+	background-color: purple;
+	padding: 10px 5px;
+	color: white;
+	border: none;
+}
+
+#home .styled-button:hover {
+	background-color: white;
+	color: purple;
+}

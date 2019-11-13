@@ -1,0 +1,110 @@
+h1 {
+	border-bottom: 10px dotted black;
+	text-align: center;
+	padding-bottom: 20px;
+	/* rgba is used for adding opacity */
+	color: rgba(199, 71, 43, 0.7);
+}
+
+/* Applied to all paragragh tags on the page */
+p {
+	color: pink;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.light-green-pg {
+	color: #96E152;
+}
+
+.border-top {
+	border-top: 3px solid purple;
+}
+
+.lowercase {
+	text-transform: lowercase;
+	color: purple;
+}
+
+#tahoma {
+	font-family: 'Tohoma', arial, sans-serif;
+}
+
+.container {
+	width: 50%;
+}
+
+#cutePuppy {
+	width: 100%;
+}
+
+.container p {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.marginPadding {
+	display: inline-block;
+	/* top right bottom left */
+	margin: 5px 15px 90px 25px; 
+	padding: 20px 50px 43px 32px;
+
+	/* Targeting specific sides */
+	/* margin-top: 5px;
+	margin-right: 15px;
+	margin-bottom: 90px;
+	margin-left: 25px; */
+
+	/* Targeting multiple at one time 
+	- first number is top/bottom
+	- second number is left/right */
+	/* margin: 20px 60px; */
+}
+
+#box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	left: 75px;
+}
+
+#box2 {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	left: 50px;
+	top: 50px;
+	z-index: 1;
+}
+
+#absoluteBox {
+	position: absolute;
+	top: 35px;
+	left: 21px;
+}
+
+#absolute {
+	position: absolute;
+	top: 150px;
+	left: 0;
+}
+
+#fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: blue;
+	width: 100%;
+}
+
+#sticky {
+	position: sticky;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	background-color: purple;
+}
+
+

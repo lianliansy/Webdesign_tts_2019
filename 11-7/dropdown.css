@@ -1,0 +1,44 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+nav {
+	background-color: #516b8a;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.8);
+}
+
+ul {
+	font-size: 32px;
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+}
+
+li {
+	display: inline-block;
+	width: 10%;
+}
+
+
+#dropdownHover:hover #dropdown {
+	display: block;
+}
+
+#dropdown {
+	display: none;
+	position: absolute;
+	color: blue;
+}
+
+#dropdown li {
+	display: block;
+	width: 100%;
+}
+
+h1 {
+	text-shadow: 2px 2px 5px black;
+}
