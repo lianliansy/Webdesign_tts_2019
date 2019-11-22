@@ -1,3 +1,11 @@
 h1 {
-	color: pink;
+	background-color: blue;
+	animation: 2s color ease-in;
+	-webkit-transition: all 4s ease;
+}
+
+h1:hover {
+	background-color: red;
+	animation: 2s color ease-in;
+	-webkit-transition: all 4s ease;
 }

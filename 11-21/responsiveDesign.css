@@ -1,0 +1,23 @@
+.boxes {
+	width: 43%;
+	display: inline-block;
+	float: left;
+	height: 200px;
+	border: 5px solid red;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 10px;
+	background-color: pink;
+}
+
+@media only screen and (min-width: 768px) {
+	.boxes {
+		width: 30%;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.boxes {
+		width: 14%;
+	}
+}
